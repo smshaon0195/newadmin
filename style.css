@@ -1,0 +1,514 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+       
+  font-family: 'Noto Serif Bengali', serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Menu_Section{
+	height: 86px;
+	display: block;
+	position: relative;
+}
+#body_Size_Section{
+	width: 1175px;
+	margin: auto;
+	font-size: 14px;
+}
+#topmanuSectionAria{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	float: left;
+	align-items: center;
+}
+#topmanuSectionAria #MainLogo{
+	width: 20%;
+}
+#LinkMenuOption{
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+
+#LinkMenuOption ul li a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+#EnglishLanguge{
+	width: 10%;
+}
+#EnglishLanguge ul{
+	    list-style: none;
+	    display: inline-flex;
+	    height: 46px;
+	    margin: 0px;
+	    align-items: center;
+	    padding: 20px;
+}
+#EnglishLanguge ul a {
+	text-decoration: none;
+	background: #F26D3E;
+	padding: 10px;
+	border-radius: 5px;
+	color:  white;
+}
+#EnglishLanguge ul a:hover {
+	text-decoration: none;
+	background: #FF4300;
+	padding: 10px;
+	border-radius: 5px;
+	color:  white;
+}
+#topmanuSectionAria #LinkMenuOption ul{
+	list-style: none;
+	display: inline-flex;
+	height: 84px;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+}
+#topmanuSectionAria #LinkMenuOption ul a{
+	text-decoration: none;
+	padding-left: 10px;transition: 1s;
+	
+} 
+#topmanuSectionAria #LinkMenuOption ul a:hover{
+	color: #333;
+	}
+.bodyImg{
+	background-image: url(https://surokkha.gov.bd/static/media/banner-bg.7358efba.jpg);
+	height: 600px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    margin: auto;
+}
+.MeddaleSectionLeft{
+    background: white;
+    width:350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    transition: all 2s;
+    
+}
+.border-box-sizing{
+    display: flex;
+    box-sizing: border-box;
+    height: 362px
+    
+}
+.maddleMarginSection{
+    width: 65%;
+    display: flex;
+    margin: auto;
+    min-height: 600px;
+   align-items: center;
+}
+.MeddaleSectionLeft  #Manlogo{
+    float: left;
+    width: 90px;
+    display: inline-flex;
+    position: relative;
+}
+.MeddaleSectionLeft h2{
+    float: left;    
+    display: inline-block;
+    text-align:left;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    padding-left: 10px
+}
+.MeddaleSectionLeft h5{
+    display:inline-block;
+    width: 100%;
+    color: black;
+    position: ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.MeddaleSectionLeft #NIDLogo{
+    display: inline-block;
+    width: auto;
+    width: auto;
+}
+#Left1stMenu{
+margin: auto;
+text-align: center;
+    padding: 20px 20px 10px 20px;
+    transition: all 1s;
+    
+}
+.MeddaleSectionLeft:hover{
+    background:#DAEDFF;
+}
+
+#Left1stMenu #color{
+    width: 90%;
+    background: #0A2E8B;
+    height: 10px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear: both;
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.MeddaleSectionLeft ul li NID{
+    padding: 0px !important;
+}
+.MeddaleSectionLeft ul li{
+display: inline-block;
+    
+}
+#Left1stMenu .listNID{
+    margin-left: 0px;
+}
+#Left1stMenu .Phone{
+    margin-left: 99px;
+}#Left1stMenu .Details{
+    margin-left: 86px;
+}
+#MiddaleSectionRight{
+    display: block;
+    width: 340px;
+}
+#MiddaleSectionRight #Text{
+    margin-left: 50px;
+}
+.Reg_Stutus{
+    background: white;
+    width: 100%; 
+    border-radius: 10px;
+    display: inline-flex;
+    float: left; 
+    overflow: hidden;
+    height: 85px;
+    align-items:center;
+    position: relative;
+    transition: all 1s;
+}
+.Reg_Stutus #color{
+     width: 9px;
+    background: #0D7B2C;
+    height: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear: both;
+    position: absolute;
+    float: left;
+    border-radius: 00px 5px 5px 0px;
+}
+.Reg_Stutus:hover{
+    background: #DFFFDA;
+
+}
+.TikaCard{
+    background: white;
+    width: 100%; 
+    border-radius: 10px;
+    display: inline-flex;
+    float: left; 
+    overflow: hidden;
+    height: 85px;
+    align-items:center;
+    position: relative;
+    transition: all 1s;
+}
+.TikaCard #color{
+    width: 9px;
+    background: #D8DE00;
+    height: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear: both;
+    position: absolute;
+    float: left;
+    border-radius: 00px 5px 5px 0px;
+}
+.TikaCard:hover{
+    background: #FEFFDA;
+
+}
+.TikaSonod{
+    background: white;
+    width: 100%; 
+    border-radius: 10px;
+    display: inline-flex;
+    float: left; 
+    overflow: hidden;
+    height: 85px;
+    align-items:center;
+    position: relative;
+    transition: all 1s;
+}
+.TikaSonod #color{
+    width: 9px;
+    background: #25BE88;
+    height: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear: both;
+    position: absolute;
+    float: left;
+    border-radius: 00px 5px 5px 0px;
+}
+.TikaSonod:hover{
+    background: #DAFFF2;
+
+}
+.Askfile{
+    background: white;
+    width: 100%; 
+    border-radius: 10px;
+    display: inline-flex;
+    float: left; 
+    overflow: hidden;
+    height: 85px;
+    align-items:center;
+    position: relative;
+    transition: all 1s;
+}
+
+.Askfile #color{
+    width: 9px;
+    background: #5FC6CC;
+    height: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear: both;
+    position: absolute;
+    float: left;
+    border-radius: 00px 5px 5px 0px;
+}
+.Askfile:hover{
+    background: #DAFDFF;
+
+}
+
+#MiddaleSectionRight a img{
+    display: inline-block;
+    width: auto;
+    display: flex;
+    margin-left: 50px
+}
+#MiddaleSectionRight a {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items:center;
+    margin-bottom: 7px
+}
+#ctndiv{
+        display: block;
+    height: auto;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 1px 6px -3.7px black;
+    margin-bottom: 50px;
+    margin-top: -40px;
+    background: white;
+    border-radius: 5px;
+}
+.ctncontant{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 0px;
+    display: flex-end;
+}
+.ctncontant .ctaimg{
+    display: block;
+    background: #dddd;
+    border-radius: 100%;
+    padding: 5px;
+    margin: auto;
+}
+.ctncontant .ctataxt{
+    display: block;
+    margin-top: 10px;
+    
+}
+.ctncontantdiv{
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 0px;
+    border-left: 2px solid #B0B0B0;
+    margin-left: 22px;
+    padding-left: 20px;
+}
+.ctncontantdiv .ctnnumber{
+    font-weight: 900;
+    text-align: center;
+    color: #0d7b2c;
+    font-size: 15px;
+}
+
+.ctncontantdiv .ctncalltex{
+    display: block;
+    margin-top: 20px;
+}
+.ctncontantdiv .ctncontant{
+    display: inline-flex;
+    width: 150px;
+}
+
+.ctncall{
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+}
+#veccinOtherDetailsDiv{
+    display: block;
+}
+#veccinwork{
+    padding: 38px 27px;
+    box-shadow: 0px 4px 10px -5px black;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#veccinwork #DetailsDiv{
+    width: 368px;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 5px;
+    float: left;
+}
+#veccinwork h5{
+    font-size: 25px;
+    border-left: 5px solid #FF483C;
+    padding-left: 10px;
+    display: block;
+}
+#veccinwork img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+}
+#veccinwork span{
+    font-weight: 700;
+}
+#veccinwork p{
+    font-size: 15px;
+}
+#containar{
+    width: 100%;
+    padding: 20px;
+}
+#containar #appdowntext{
+    width: 550px;
+    text-align: center;
+    font-weight: 700;
+}
+#containar #appMarginAuto{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#AppCoitainer{
+       padding: 38px 27px;
+    box-shadow: -2px 3px 6px -7px black;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#AppCoitainer .Apptext{ 
+    font-size: 25px;
+    border-left: 5px solid #FF483C;
+    padding-left: 10px;
+    display: block;
+}
+#AppCoitainer #divcontainer{
+    height: 200px;
+    width: 350px;
+    align-items: flex-end;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px
+  
+}
+#AppCoitainer #divcontainer .justify-contant{
+    text-align: center;
+    padding: 20px;
+}
+
+#AppCoitainer #divcontainer .justify-contant .isoapp{
+    margin-bottom: 7px;
+}
+.mujiblogo-link img{
+    max-width: 200px;
+}
+#AppCoitainer #divcontainer .justify-contant h3:hover a{
+    text-decoration: underline;
+}
+.fotterdiv{
+    background: #F26D3E;
+    height: 250px;
+    width: 100%;
+}
+.fottercontain-margin-nauto{
+    width: 1175px;
+	margin: auto;
+	font-size: 14px; display: flex
+}
+.fotterdiv-max-width{
+    max-height: 250px;
+    display: inline-block; 
+    padding: 20px; margin-top: 40px
+}
+.fotterdiv-max-width ul{
+    list-style: none;
+    font-size: 13px;
+}
+.fotterdiv-max-width ul li{
+    margin-bottom: 10px;
+}
+.fotterdiv-max-width ul a{
+    color: white; font-weight: bold;
+    
+}
+.fotterdiv-max-width ul a:hover{
+    text-decoration: underline;
+}
+.fotterdiv-max-width p{
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.fotterdiv-max-width img{
+    max-width: 100%;
+    height: auto;
+}
+.fotterdiv-max-width p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
